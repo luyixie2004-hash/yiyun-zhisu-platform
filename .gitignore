@@ -1,0 +1,34 @@
+# ---- 鏋勫缓浜х墿 ----
+backend/target/
+frontend/dist/
+dist/
+node_modules/
+
+# ---- IDE / 缂栬緫鍣?----
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ---- 鏃ュ織 ----
+*.log
+logs/
+
+# ---- 缂栬瘧涓棿鏂囦欢 ----
+*.class
+
+# ---- 鐜鍙橀噺锛堟湰鍦伴厤缃紝鍕挎彁浜わ級 ----
+.env
+.env.local
+.env.*.local
+
+# ---- 绯荤粺 / 涓存椂 ----
+Thumbs.db
+.DS_Store
+/1
+/T
+/T.txt
+
+# 运行时上传目录（用户数据，不进仓库）
+uploads/

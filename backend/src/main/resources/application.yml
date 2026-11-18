@@ -1,0 +1,79 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 50MB
+  profiles:
+    active: dev
+  application:
+    name: yiyun-backend
+  datasource:
+    url: ${YIYUN_DATASOURCE_URL:jdbc:mysql://localhost:3306/yiyun?useUnicode=true&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false}
+    username: ${YIYUN_DATASOURCE_USERNAME:root}
+    password: ${YIYUN_DATASOURCE_PASSWORD:123456}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: never
+  jackson:
+    default-property-inclusion: non_null
+    time-zone: Asia/Shanghai
+  data:
+    redis:
+      host: ${YIYUN_REDIS_HOST:localhost}
+      port: ${YIYUN_REDIS_PORT:6379}
+      password: ${YIYUN_REDIS_PASSWORD:}
+      timeout: 10000ms
+
+# 第三方 API 密钥一律通过环境变量注入，请勿把真实密钥写进本文件
+# 本地开发可写在 application-local.yml（已在 .gitignore 中）
+deepseek:
+  api-key: ${YIYUN_DEEPSEEK_API_KEY:}
+
+zhipu:
+  api-key: ${YIYUN_ZHIPU_API_KEY:}
+
+baidu:
+  qianfan:
+    api-key: ${YIYUN_BAIDU_API_KEY:}
+    secret-key: ${YIYUN_BAIDU_SECRET_KEY:}
+  speech:
+    api-key: ${YIYUN_BAIDU_SPEECH_API_KEY:${YIYUN_BAIDU_API_KEY:}}
+    secret-key: ${YIYUN_BAIDU_SPEECH_SECRET_KEY:${YIYUN_BAIDU_SECRET_KEY:}}
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+
+jwt:
+  secret: ${YIYUN_JWT_SECRET:please-set-via-env-YIYUN_JWT_SECRET}
+  expiration: 86400000
+
+upload:
+  path: ${YIYUN_UPLOAD_PATH:./uploads}
+
+cors:
+  allowed-origins: ${CORS_ORIGINS:http://localhost:*,http://127.0.0.1:*,http://47.105.99.152,http://47.105.99.152:*}
+
+logging:
+  level:
+    com.yiyun: DEBUG
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
