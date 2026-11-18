@@ -1,4 +1,4 @@
-# 华脉万象 — 非遗文化数字传承平台
+# 遗韵智溯 — 非遗文化数字传承平台
 
 融合大模型与AIGC技术的非遗全景探索引擎
 
@@ -47,7 +47,7 @@
 ## 项目结构
 
 ```
-华脉万象/
+yiyun-zhisu-platform/
 ├── backend/                        # Spring Boot 后端
 │   ├── pom.xml
 │   └── src/main/
@@ -278,11 +278,12 @@ CREATE DATABASE yiyun CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 | `YIYUN_DATASOURCE_PASSWORD` | 数据库密码 | `123456` |
 | `YIYUN_REDIS_HOST` | Redis 地址 | `localhost` |
 | `YIYUN_REDIS_PORT` | Redis 端口 | `6379` |
-| `YIYUN_DEEPSEEK_API_KEY` | DeepSeek API Key | 内置默认 Key |
+| `YIYUN_DEEPSEEK_API_KEY` | DeepSeek API Key（AI 问答） | 空，必须自行配置 |
 | `YIYUN_BAIDU_API_KEY` | 百度千帆 API Key | 空（不使用则留空） |
 | `YIYUN_BAIDU_SECRET_KEY` | 百度千帆 Secret Key | 空 |
-| `YIYUN_JWT_SECRET` | JWT 签名密钥 | 内置默认值 |
-| `YIYUN_UPLOAD_PATH` | 文件上传路径 | `../uploads`（项目根目录的 uploads/） |
+| `YIYUN_ZHIPU_API_KEY` | 智谱 AI Key（AIGC 出图） | 空 |
+| `YIYUN_JWT_SECRET` | JWT 签名密钥 | 占位值，生产环境必须替换 |
+| `YIYUN_UPLOAD_PATH` | 文件上传路径 | `./uploads` |
 
 ### 3. 后端启动
 
