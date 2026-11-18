@@ -218,7 +218,7 @@ onMounted(async () => {
         <div class="chat-header glass-card">
           <div class="chat-model-badge">
             <span class="model-dot animate-live-dot"></span>
-            华脉 AI · 非遗文化专家
+            遗韵 AI · 非遗文化专家
           </div>
           <span class="chat-title">{{ currentSessionTitle }}</span>
         </div>
@@ -238,7 +238,7 @@ onMounted(async () => {
         <div class="messages-area" ref="messagesEl">
           <div v-if="messages.length === 0" class="welcome-area">
             <div class="welcome-icon">🏛️</div>
-            <h2>您好，我是「华脉」</h2>
+            <h2>您好，我是「遗韵」</h2>
             <p>可以帮您理解非遗项目、制定路线、推荐体验方式，也能把当前页面内容继续展开。</p>
           </div>
 

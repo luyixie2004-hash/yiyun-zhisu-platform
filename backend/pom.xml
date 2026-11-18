@@ -14,7 +14,7 @@
     <groupId>com.yiyun</groupId>
     <artifactId>yiyun-backend</artifactId>
     <version>1.0.0</version>
-    <name>华脉万象-后端服务</name>
+    <name>遗韵智溯-后端服务</name>
     <description>非遗文旅平台后端服务</description>
 
     <properties>

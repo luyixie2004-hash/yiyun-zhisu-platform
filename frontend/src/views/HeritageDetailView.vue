@@ -47,7 +47,7 @@ const emojis = ['😀','😃','😄','😁','😆','😅','🤣','😂','🙂','
 const showEmojiPicker = ref(false)
 
 // 默认占位图（内联 SVG，不依赖外部服务）
-const PLACEHOLDER_SVG = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450"><rect fill="#f0ebe3" width="800" height="450"/><text fill="#c8502a" font-family="serif" font-size="36" text-anchor="middle" x="400" y="210">华脉万象</text><text fill="#999" font-family="sans-serif" font-size="16" text-anchor="middle" x="400" y="250">图片加载中...</text></svg>')
+const PLACEHOLDER_SVG = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450"><rect fill="#f0ebe3" width="800" height="450"/><text fill="#c8502a" font-family="serif" font-size="36" text-anchor="middle" x="400" y="210">遗韵智溯</text><text fill="#999" font-family="sans-serif" font-size="16" text-anchor="middle" x="400" y="250">图片加载中...</text></svg>')
 
 // 图片加载失败处理（防止无限循环）
 function handleImageError(event) {

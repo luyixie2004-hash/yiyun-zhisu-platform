@@ -704,7 +704,7 @@ onUnmounted(() => {
         <svg class="seal-svg" viewBox="0 0 80 80">
           <rect x="4" y="4" width="72" height="72" rx="4" fill="none" stroke="#c04030" stroke-width="3"/>
           <rect x="9" y="9" width="62" height="62" rx="2" fill="none" stroke="#c04030" stroke-width="0.8"/>
-          <text x="40" y="34" text-anchor="middle" font-size="14" font-weight="900" fill="#c04030" font-family="'Noto Serif SC', 'SimSun', serif">华脉万象</text>
+          <text x="40" y="34" text-anchor="middle" font-size="14" font-weight="900" fill="#c04030" font-family="'Noto Serif SC', 'SimSun', serif">遗韵智溯</text>
           <text x="40" y="52" text-anchor="middle" font-size="7" fill="#c04030" font-family="'Noto Serif SC', serif">非遗传承</text>
           <text x="40" y="66" text-anchor="middle" font-size="6" fill="#c04030" opacity="0.7" font-family="serif">HUAMAI</text>
         </svg>
@@ -772,8 +772,8 @@ onUnmounted(() => {
                       <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0; -1 0" dur="4s" repeatCount="indefinite"/>
                     </linearGradient>
                   </defs>
-                  <text x="320" y="98" text-anchor="middle" font-family="'Noto Serif SC', 'SimSun', 'STSong', serif" font-size="96" font-weight="900" letter-spacing="0.08em" fill="url(#goldGrad)">华脉万象</text>
-                  <text x="320" y="98" text-anchor="middle" font-family="'Noto Serif SC', 'SimSun', 'STSong', serif" font-size="96" font-weight="900" letter-spacing="0.08em" fill="none" stroke="url(#goldGrad)" stroke-width="0.5" opacity="0.6">华脉万象</text>
+                  <text x="320" y="98" text-anchor="middle" font-family="'Noto Serif SC', 'SimSun', 'STSong', serif" font-size="96" font-weight="900" letter-spacing="0.08em" fill="url(#goldGrad)">遗韵智溯</text>
+                  <text x="320" y="98" text-anchor="middle" font-family="'Noto Serif SC', 'SimSun', 'STSong', serif" font-size="96" font-weight="900" letter-spacing="0.08em" fill="none" stroke="url(#goldGrad)" stroke-width="0.5" opacity="0.6">遗韵智溯</text>
                 </svg>
               </span>
             </h1>
@@ -808,7 +808,7 @@ onUnmounted(() => {
 
 <style scoped>
 /* ═══════════════════════════════════════════
-   入户页 — 华脉万象  Landing
+   入户页 — 遗韵智溯  Landing
    ═══════════════════════════════════════════ */
 
 /* ── 根容器 ── */

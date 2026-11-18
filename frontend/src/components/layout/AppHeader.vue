@@ -121,7 +121,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
     <div class="header-inner">
       <router-link to="/home" class="logo">
         <span class="logo-icon">华</span>
-        <span class="logo-text">华脉万象</span>
+        <span class="logo-text">遗韵智溯</span>
       </router-link>
 
       <nav class="nav-links" :class="{ open: menuOpen }">

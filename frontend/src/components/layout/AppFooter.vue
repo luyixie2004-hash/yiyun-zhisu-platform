@@ -4,7 +4,7 @@
       <div class="footer-brand">
         <div class="footer-logo">
           <span class="logo-icon">华</span>
-          <span class="logo-text">华脉万象</span>
+          <span class="logo-text">遗韵智溯</span>
         </div>
         <p class="footer-tagline">以 AI 为引，以文化为根<br/>让非遗在数字时代焕发新生</p>
       </div>
@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 华脉万象 · 融合大模型与AIGC技术的非遗全景探索引擎</span>
+      <span>© 2026 遗韵智溯 · 融合大模型与AIGC技术的非遗全景探索引擎</span>
       <span>Powered by DeepSeek AI · Spring Boot · Vue 3 · ECharts</span>
     </div>
   </footer>

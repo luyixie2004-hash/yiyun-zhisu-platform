@@ -16,7 +16,7 @@ public class HealthController {
     public ApiResponse<Map<String, Object>> health() {
         return ApiResponse.success(Map.of(
                 "status", "UP",
-                "service", "华脉万象后端服务",
+                "service", "遗韵智溯后端服务",
                 "timestamp", LocalDateTime.now().toString(),
                 "version", "1.0.0"
         ));

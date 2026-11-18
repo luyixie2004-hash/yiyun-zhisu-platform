@@ -7,7 +7,7 @@
     <div class="auth-card glass-card">
       <div class="auth-logo">
         <span class="logo-icon">华</span>
-        <span class="logo-text">华脉万象</span>
+        <span class="logo-text">遗韵智溯</span>
       </div>
       <h2 class="auth-title">管理员登录</h2>
       <p class="auth-sub">登录后台管理系统，处理非遗平台业务</p>

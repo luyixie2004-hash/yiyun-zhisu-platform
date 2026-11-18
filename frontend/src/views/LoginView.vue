@@ -7,7 +7,7 @@
     <div class="auth-card glass-card">
       <div class="auth-logo">
         <span class="logo-icon">华</span>
-        <span class="logo-text">华脉万象</span>
+        <span class="logo-text">遗韵智溯</span>
       </div>
       <h2 class="auth-title">欢迎回来</h2>
       <p class="auth-sub">登录您的账户，探寻千年非遗文化</p>
